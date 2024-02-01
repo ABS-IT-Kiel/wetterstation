@@ -1,6 +1,6 @@
 from Wetterstationsbeobachter import Wetterstationsbeobachter
 from Wetterstation import Wetterstation
-
+#afkjsahfkajfhkjsagsa
 class Innenbeobachter(Wetterstationsbeobachter):
 	def __init__(self, wetterstation, beoName, beoStandort):
 		super().__init__(wetterstation, beoName, beoStandort)
