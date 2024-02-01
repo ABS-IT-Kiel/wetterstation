@@ -8,6 +8,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(18, GPIO.IN)
 from mysql.connector import connection, Error
+#Zu zeigen das Inhalt in Github übertragen wurde
 
 class Wetterstation:
     
