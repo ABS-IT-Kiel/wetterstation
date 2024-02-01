@@ -7,6 +7,7 @@ class Innenbeobachter(Wetterstationsbeobachter):
 
 	def update(self, temperature, humidity):
 		print('Information von der Wetterstation im Haus erhalten \n Temperatur beträgt: '+str(temperature)+'°C')
+		self.wetterstation.antwort('Rueckmeldung von ABS-It Boeck')
 		self.wetterstation.antwort('Rueckmeldung vom Innenbeobachter')
 		
 		
