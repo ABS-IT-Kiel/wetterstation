@@ -28,7 +28,7 @@ class Wetterstation:
         humidity, temperature = Adafruit_DHT.read(sensor, pin)
         for self.i in range (len(self.wetterstationsbeobachter)):
             self.wetterstationsbeobachter[self.i].update(temperature, humidity)
-            
+       		 print('mein name ist Taee')   
 
     def add(self, beobachter):
         self.wetterstationsbeobachter[self.i]=beobachter
