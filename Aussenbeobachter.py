@@ -8,7 +8,7 @@ class Aussenbeobachter(Wetterstationsbeobachter):
 		print('Information von der Wetterstation von außen erhalten \n Temperatur beträgt: '+str(temperature)+'°C')
 		self.wetterstation.antwort('Rueckmeldung vom Aussenbeobachter')
 		
-		
+#mit SSH		
 		
 		
 
