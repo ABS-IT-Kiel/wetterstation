@@ -4,7 +4,7 @@ from Wetterstationsbeobachter import Wetterstationsbeobachter
 from Innenbeobachter import Innenbeobachter
 from Aussenbeobachter import Aussenbeobachter
 from Autobeobachter import Autobeobachter
-
+#HAllo
 
 
 def main():
